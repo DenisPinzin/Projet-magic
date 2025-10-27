@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Roboto-regular";
+  src: url("../fonts/Roboto/static/Roboto-Regular.ttf");
+}
+body {
+  font-family: "Roboto-regular";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */
