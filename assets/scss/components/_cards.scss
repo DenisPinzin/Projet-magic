@@ -1,5 +1,6 @@
 @use "../abstracts/variables";
 
+//NEWS
 .card {
   margin-top: 2%;
   flex: 1;
@@ -8,7 +9,7 @@
   overflow: hidden;
   .card-img {
     width: 100%;
-    height: 40%;
+    height: 15rem;
     position: relative;
     a {
       text-decoration: none;
@@ -21,6 +22,8 @@
     img {
       width: 100%;
       height: 100%;
+      object-fit: cover;
+      object-position: center;
     }
   }
   .news-card-paragraph {

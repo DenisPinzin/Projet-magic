@@ -1,0 +1,71 @@
+@use "../abstracts/variables";
+
+// HEADER
+@media screen and (max-width: 768px) {
+  header {
+    background-color: variables.$color-black;
+    .nav {
+      .menu {
+        display: inline-block;
+        height: 50px;
+        img {
+          height: 100%;
+        }
+      }
+      nav {
+        display: none;
+      }
+    }
+  }
+}
+
+// HERO
+@media screen and (max-width: 768px) {
+  body main .hero {
+    align-items: center;
+    justify-content: center;
+  }
+
+  body main .hero .container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  body main .hero .hero-new-extension {
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+// NEWS
+@media screen and (max-width: 768px) {
+  body main .news .news-disposition .news-all-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// EXTENSIONS
+
+@media screen and (max-width: 768px) {
+  body main .extensions .extensions-all-cards {
+    flex-direction: column;
+  }
+  h2 {
+    margin-top: 5%;
+  }
+}
+
+//FOOTER
+
+@media screen and (max-width: 768px) {
+  footer .footer-contain {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .footer-menu ul {
+    justify-content: center;
+    padding: 0;
+  }
+}
