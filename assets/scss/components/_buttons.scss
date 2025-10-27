@@ -1,0 +1,31 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+//BTN
+
+.btn-red {
+  @include mixins.button(variables.$color-primary, variables.$color-white);
+}
+
+.btn-white {
+  @include mixins.button(variables.$color-white, variables.$color-black);
+}
+
+.btn-dark {
+  @include mixins.button(variables.$color-black, variables.$color-white);
+  border: 1px solid variables.$color-white;
+}
+
+.btn-transparent {
+  @include mixins.button(rgba(0, 0, 0, 0.5), variables.$color-primary);
+  border: 1px solid variables.$color-primary;
+}
+
+.btn-spoiler {
+  @include mixins.button(variables.$color-primary, variables.$color-white);
+  border-radius: 30px;
+}
+
+// .btn:hover {
+//   @include mixins.button();
+// }

@@ -1,3 +1,5 @@
+@use "../abstracts/variables";
+
 @font-face {
   font-family: "Roboto-regular";
   src: url("../fonts/Roboto/static/Roboto-Regular.ttf");
@@ -5,4 +7,18 @@
 
 body {
   font-family: "Roboto-regular";
+}
+
+h1,
+h2 {
+  color: variables.$color-primary;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.slogan {
+  font-weight: bold;
 }

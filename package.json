@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "projet-magic": "sass -w assets/scss:assets/css"
+    "sass": "sass -w assets/scss:assets/css"
   },
   "dependencies": {
     "sass": "^1.93.2"
